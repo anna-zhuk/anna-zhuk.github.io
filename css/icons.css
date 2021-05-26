@@ -1,0 +1,55 @@
+
+#s2 .container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+
+.icons {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.icons .col {
+	width: 33.33%;
+	padding: 0 30px;
+	margin-bottom: 40px;
+	display: flex;
+	flex-direction: column;
+/*	align-items: center;*/
+}
+
+.icons .col h2 {
+	max-width: 250px;
+}
+
+.icons .col img {
+	width: 120px;
+
+}
+
+.icons h2 {
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding: 15px 0px 8px
+}
+
+.icons p {
+  font-weight: normal;
+  font-size: 1rem;
+  color: #4D4D4D
+}
+
+p {
+	margin-top: 10px;
+}
+
+
+@media screen and (max-width: 992px) {
+
+	.icons .col {
+		width: 50%;
+	}
+}

@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+div img {
+    display: block;
+    max-width: 100%;
+}
+
+.slider .item {
+    position: relative;
+    width: 100%;
+}
+
+.slider .item img {
+    /* Для заповнення ілюстрацією батьківського контейнера   */
+    /* Застосовуємо власт. object-fit  */
+    display: block;
+    width:100%;
+}
